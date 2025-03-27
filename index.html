@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Креативное агентство</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка с навигацией -->
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-rocket"></i>
+            <span>Creative</span>
+        </div>
+        
+        <button class="menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="#services"><i class="fas fa-cogs"></i> Услуги</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Галерея</a></li>
+                <li><a href="#team"><i class="fas fa-users"></i> Команда</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Мобильное меню -->
+    <div class="overlay" id="overlay"></div>
+    
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-btn" id="closeBtn">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <ul class="mobile-nav-links">
+            <li><a href="#"><i class="fas fa-home"></i> Главная</a></li>
+            <li><a href="#services"><i class="fas fa-cogs"></i> Услуги</a></li>
+            <li><a href="#gallery"><i class="fas fa-images"></i> Галерея</a></li>
+            <li><a href="#team"><i class="fas fa-users"></i> Команда</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Контакты</a></li>
+        </ul>
+    </div>
+    
+    <!-- Основной контент -->
+    <div class="container">
+        <!-- Герой-секция -->
+        <section class="hero">
+            <h1>Создаем впечатляющие цифровые продукты</h1>
+            <p>Мы креативное агентство, специализирующееся на веб-дизайне, разработке и маркетинге. Превращаем ваши идеи в реальность.</p>
+            <a href="#contact" class="btn">Начать проект</a>
+        </section>
+        
+        <!-- Услуги -->
+        <section class="services" id="services">
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="photo\Программное обеспечение для моушн-дизайнера_ создание видеоэффектов и анимации _ Премиум векторы.jpeg" alt="Веб-дизайн">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Веб-дизайн</h3>
+                    <p>Создаем современные и удобные интерфейсы, которые привлекают внимание и удерживают пользователей.</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="photo\09b985dc-326f-4e80-841c-235c71742bb9.jpeg" alt="Разработка">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Разработка</h3>
+                    <p>Полноценная разработка веб-приложений и сайтов любой сложности с использованием современных технологий.</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="photo\Cursos para aprender a usar ChatGPT y sacarle partido en el aula.jpeg" alt="Маркетинг">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Маркетинг</h3>
+                    <p>Комплексные маркетинговые стратегии для продвижения вашего бизнеса в цифровом пространстве.</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Галерея -->
+        <section class="gallery" id="gallery">
+            <h2>Наши работы</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="photo\2025-03-27_19-31-52.png" alt="Проект 1">
+                    <div class="gallery-caption">Корпоративный сайт</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo\2025-03-27_19-31-52.png" alt="Проект 2">
+                    <div class="gallery-caption">Мобильное приложение</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo\2025-03-27_19-31-52.png" alt="Проект 3">
+                    <div class="gallery-caption">Брендинг</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo\2025-03-27_19-31-52.png" alt="Проект 4">
+                    <div class="gallery-caption">Интернет-магазин</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo\2025-03-27_19-31-52.png" alt="Проект 5">
+                    <div class="gallery-caption">Админ-панель</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo\2025-03-27_19-31-52.png" alt="Проект 6">
+                    <div class="gallery-caption">Портфолио</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Команда -->
+        <section class="team" id="team">
+            <h2>Наша команда</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="photo\Алексей Петров.jpeg" alt="Алексей">
+                    </div>
+                    <div class="team-info">
+                        <h3>Алексей Петров</h3>
+                        <p>Главный дизайнер</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="photo\Елена Смирнова.jpeg" alt="Елена">
+                    </div>
+                    <div class="team-info">
+                        <h3>Елена Смирнова</h3>
+                        <p>Frontend разработчик</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="photo\Дмитрий Иванов.jpeg" alt="Дмитрий">
+                    </div>
+                    <div class="team-info">
+                        <h3>Дмитрий Иванов</h3>
+                        <p>Backend разработчик</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="photo\Ольга Кузнецова.jpeg" alt="Ольга">
+                    </div>
+                    <div class="team-info">
+                        <h3>Ольга Кузнецова</h3>
+                        <p>Маркетолог</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Контакты -->
+        <section class="contact" id="contact">
+            <h2>Свяжитесь с нами</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p>г. Москва, ул. Примерная, 123</p>
+                                <p>Бизнес центр "Пример"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <p>+7 (123) 456-78-90</p>
+                                <p>Пн-Пт: 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p>info@example.com</p>
+                                <p>support@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" placeholder="Введите ваше имя" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Введите ваш email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" placeholder="Введите ваше сообщение" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>О компании</h3>
+                <p>Мы креативное агентство, специализирующееся на создании цифровых продуктов и маркетинговых стратегий.</p>
+                <div class="social-links" style="margin-top: 1rem;">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Ссылки</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#gallery">Портфолио</a></li>
+                    <li><a href="#team">Команда</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Услуги</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Веб-дизайн</a></li>
+                    <li><a href="#">Разработка</a></li>
+                    <li><a href="#">Маркетинг</a></li>
+                    <li><a href="#">SEO оптимизация</a></li>
+                    <li><a href="#">Поддержка</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Подписаться</h3>
+                <p>Подпишитесь на нашу рассылку, чтобы получать последние новости и обновления.</p>
+                <form style="margin-top: 1rem;">
+                    <input type="email" placeholder="Ваш email" style="padding: 0.8rem; width: 100%; border: none; border-radius: 5px; margin-bottom: 0.5rem;">
+                    <button type="submit" class="btn" style="width: 100%;">Подписаться</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 Creative Agency. Все права защищены.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Мобильное меню
+        const menuBtn = document.getElementById('menuBtn');
+        const closeBtn = document.getElementById('closeBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('overlay');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        
+        overlay.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        
+        // Плавная прокрутка
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                if (mobileMenu.classList.contains('active')) {
+                    mobileMenu.classList.remove('active');
+                    overlay.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Анимация при прокрутке
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.service-card, .team-card, .gallery-item');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.2;
+                
+                if (elementPosition < screenPosition) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+        
+        // Инициализация анимации
+        window.addEventListener('load', () => {
+            document.querySelectorAll('.service-card, .team-card, .gallery-item').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            });
+            
+            setTimeout(animateOnScroll, 500);
+        });
+        
+        window.addEventListener('scroll', animateOnScroll);
+    </script>
+</body>
+</html>
